@@ -11,7 +11,7 @@ WORKDIR build
 RUN touch test.txt && echo "Hello World" >> test.txt
 RUN apk add openjdk17
 RUN cd .. \
-    && wget https://dlcdn.apache.org/tomcat/tomcat-10/v10.1.19/bin/apache-tomcat-10.1.19.tar.gz \
+    && wget https://dlcdn.apache.org/tomcat/tomcat-10/v10.1.43/bin/apache-tomcat-10.1.43.tar.gz \
     && tar -xvzf apache-tomcat-10.1.19.tar.gz \
     && rm apache-tomcat-10.1.19.tar.gz
 # /app/build/idea-new
